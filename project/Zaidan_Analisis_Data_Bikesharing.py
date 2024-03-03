@@ -12,8 +12,8 @@ st.markdown("""
             1. Pada musim apa orang-orang paling banyak menggunakan layanan Bike Sharing?
             2. Pada rentang jam berapa orang-orang banyak menggunakan layanan Bike Sharing?
             """)
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("project/day.csv")
+hour_df = pd.read_csv("project/hour.csv")
 
 season_names = {1: "Winter", 2: "Spring", 3: "Summer", 4: "Autumn"}
 split_by_season_daypeople = day_df.groupby('season')[['casual', 'registered']].mean()
