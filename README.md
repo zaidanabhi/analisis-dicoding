@@ -9,7 +9,7 @@ conda activate zaidanproject
 pip install numpy pandas matplotlib seaborn jupyter streamlit
 ```
 
-## Run steamlit app (jalankan perintah dibawah pada folder analisis dan dashboard)
+## Run steamlit app (jalankan perintah dibawah pada folder project)
 ```
 streamlit run Zaidan_Analisis_Data_Bikesharing.py
 ```
